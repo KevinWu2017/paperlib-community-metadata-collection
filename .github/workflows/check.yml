@@ -10,8 +10,11 @@ on:
       - reopened
 
 jobs:
-  format:
+  format_check:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     strategy:
       matrix:
@@ -36,6 +39,12 @@ jobs:
 
       - name: "Format"
         run: pnpm run format:metadata-json
+
+      - name: "Commit Changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[Format] metadata JSON files"
+          commit_options: "--no-verify"
 
       - name: Get All Changed Metadata JSON Files
         id: changed-files
