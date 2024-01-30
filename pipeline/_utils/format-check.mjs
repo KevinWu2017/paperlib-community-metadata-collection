@@ -1,6 +1,9 @@
 function checkRequiredFields(object, requiredFields) {
   for (const field of requiredFields) {
-    if (!object[field.name]) {
+    if (
+      object[field.name] === null ||
+      typeof object[field.name] === "undefined"
+    ) {
       throw new Error(
         `Missing ${field.name} field: ${JSON.stringify(object, null, 2).slice(0, 200)}`
       );
@@ -21,7 +24,11 @@ function checkRequiredFields(object, requiredFields) {
 
 function checkOptionalFields(object, optionalFields) {
   for (const field of optionalFields) {
-    if (object[field.name] && typeof object[field.name] !== field.type) {
+    if (
+      object[field.name] !== null &&
+      typeof object[field.name] !== "undefined" &&
+      typeof object[field.name] !== field.type
+    ) {
       throw new Error(
         `Incorrect type for ${field.name} field, expect ${field.type}, got ${typeof object[field.name]}: ${JSON.stringify(object, null, 2).slice(0, 200)}`
       );

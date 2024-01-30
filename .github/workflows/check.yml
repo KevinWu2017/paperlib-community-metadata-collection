@@ -37,9 +37,6 @@ jobs:
       - name: "Install Node Module"
         run: pnpm install
 
-      - name: "Check Style"
-        run: pnpm run format:check
-
       - name: Get All Changed Metadata JSON Files
         id: changed-files
         uses: tj-actions/changed-files@v42
@@ -52,5 +49,6 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in "$ALL_CHANGED_FILES"; do
+            npx prettier --check $file
             node ./pipeline/check_pipeline.mjs $file
           done
