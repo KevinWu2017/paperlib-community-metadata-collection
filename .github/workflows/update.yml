@@ -1,53 +1,12 @@
-name: Format and Check
+name: Update Metadata Database
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-    types:
-      - opened
-      - synchronize
-      - reopened
 
 jobs:
-  format:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
-    strategy:
-      matrix:
-        node-versions: ["18.16.1"]
-
-    steps:
-      - name: "Checkout Project"
-        uses: actions/checkout@v2
-
-      - name: Setup NodeJS Environment ${{ matrix.node-versions }}
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: "Setup PNPM"
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
-      - name: "Install Node Module"
-        run: pnpm install
-
-      - name: "Format"
-        run: pnpm run format:metadata-json
-
-      - name: "Commit Changes"
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "[Format] metadata JSON files"
-          commit_options: "--no-verify"
-
-  check:
-    needs: format
+  update_database:
     runs-on: ubuntu-latest
 
     strategy:
@@ -77,11 +36,11 @@ jobs:
         with:
           files: metadata/**/*.json
 
-      - name: Check Changed Metadata JSON Files
+      - name: Inert Metadata into Database from JSON Files
         if: steps.changed-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in "$ALL_CHANGED_FILES"; do
-            node ./pipeline/check_pipeline.mjs $file
+            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} node ./pipeline/update_pipeline.mjs $file
           done

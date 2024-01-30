@@ -10,7 +10,7 @@ on:
       - reopened
 
 jobs:
-  format_check:
+  format:
     runs-on: ubuntu-latest
 
     permissions:
@@ -45,6 +45,33 @@ jobs:
         with:
           commit_message: "[Format] metadata JSON files"
           commit_options: "--no-verify"
+
+  format_check:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        node-versions: ["18.16.1"]
+
+    steps:
+      - name: "Checkout Project"
+        uses: actions/checkout@v2
+
+      - name: Setup NodeJS Environment ${{ matrix.node-versions }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: "Setup PNPM"
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: "Install Node Module"
+        run: pnpm install
 
       - name: Get All Changed Metadata JSON Files
         id: changed-files
