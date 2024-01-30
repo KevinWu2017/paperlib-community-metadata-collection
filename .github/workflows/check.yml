@@ -42,7 +42,7 @@ jobs:
         uses: tj-actions/changed-files@v42
         with:
           files: |
-             ./metadata/**.json
+             ./metadata/**/**.json
 
       - name: List all changed files markdown files
         if: steps.changed-files.outputs.any_changed == 'true'
