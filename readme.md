@@ -8,7 +8,7 @@ To contribute, please fork this repository and add your metadata collection to t
 
 ### Metadata Collection Format
 
-```json
+```json5
 {
     "info": {
         "name": "Name of the Conference or Journal",
