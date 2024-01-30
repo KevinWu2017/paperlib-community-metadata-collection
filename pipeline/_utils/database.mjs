@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { distance } from "fastest-levenshtein";
+import * as cliProgress from "cli-progress";
 
 export const MetadataModelSchema = new mongoose.Schema({
   addTime: Date,
@@ -42,7 +43,11 @@ export async function updateDatabase(
 
   replaceCount += deletedCount;
 
+  const insertItems = [];
+  const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
+  bar.start(metadataCollection.length, 0);
   for (const item of metadataCollection) {
+    bar.increment();
     // 1. Find if the item already exists in the database
     const query = [];
     if (item.minifiedtitle) {
@@ -88,10 +93,14 @@ export async function updateDatabase(
 
     // 3. Insert the item
     if (keptItems.length === 0) {
-      await metadataModel.create(item);
+      insertItems.push(item);
       insertCount++;
     }
   }
+  bar.stop();
+
+  // 4. Insert the items
+  await metadataModel.insertMany(insertItems);
 
   return [insertCount, replaceCount, ignoreCount];
 }
