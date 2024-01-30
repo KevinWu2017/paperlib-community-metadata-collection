@@ -42,13 +42,14 @@ jobs:
         uses: tj-actions/changed-files@v42
         with:
           files: |
-             ./metadata/**/**.json
+             ./metadata/**.json
 
       - name: List all changed files markdown files
         if: steps.changed-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         run: |
+          echo "All changed files are $ALL_CHANGED_FILES"
           for file in "$ALL_CHANGED_FILES"; do
             echo "$file was changed"
           done
