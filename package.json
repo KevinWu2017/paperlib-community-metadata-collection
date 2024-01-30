@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format:metadata-json": "prettier --write \"metadata/**/*.json\""
+    "format:metadata-json": "prettier --write \"metadata/**/*.json\"",
+    "format:check": "prettier --check \"metadata/**/*.json\""
   },
   "keywords": [],
   "author": "",
