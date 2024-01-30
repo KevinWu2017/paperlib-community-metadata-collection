@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "International Conference on Computer Vision",
+    "short_name": "ICCV",
+    "date": "2023"
+  },
+  "collection": [
+    {
+      "title": "Towards Attack-tolerant Federated Learning via Critical Parameter Analysis",
+      "authors": [
+        {
+          "first_name": "Sungwon",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "Sungwon",
+          "last_name": "Park"
+        },
+        {
+          "first_name": "Fangzhao",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Sundong",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "Bin",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Xing",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Meeyoung",
+          "last_name": "Cha"
+        }
+      ],
+      "publication": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "pubTime": "2023",
+      "pubType": 1,
+      "pages": "4999-5008",
+      "publisher": "IEEE"
+    },
+    {
+      "title": "Stochastic Segmentation with Conditional Categorical Diffusion Models",
+      "authors": [
+        {
+          "first_name": "Lukas",
+          "last_name": "Zbinden"
+        },
+        {
+          "first_name": "Lars",
+          "last_name": "Doorenbos"
+        },
+        {
+          "first_name": "Theodoros",
+          "last_name": "Pissas"
+        },
+        {
+          "first_name": "Adrian Thomas",
+          "last_name": "Huber"
+        },
+        {
+          "first_name": "Raphael",
+          "last_name": "Sznitman"
+        },
+        {
+          "first_name": "Pablo",
+          "last_name": "M&#x27;arquez-Neila"
+        }
+      ],
+      "publication": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "pubTime": "2023",
+      "pubType": 1,
+      "pages": "1119-1129",
+      "publisher": "IEEE"
+    }
+  ]
+}
