@@ -43,10 +43,11 @@ jobs:
         with:
           files: metadata/**/*.json
 
-      - name: Run step if any file(s) in the docs folder change
+      - name: Check Changed Metadata JSON Files
         if: steps.changed-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          echo "One or more files in the docs folder has changed."
-          echo "List all the files that have changed: $ALL_CHANGED_FILES"
+          for file in "$ALL_CHANGED_FILES"; do
+            node ./pipeline/check_pipeline.mjs $file
+          done
