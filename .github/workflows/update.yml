@@ -42,5 +42,5 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in "$ALL_CHANGED_FILES"; do
-            DATABASE_URL=$DATABASE_URL DATABASE_USERNAME=$DATABASE_USERNAME DATABASE_PASSWORD=$DATABASE_PASSWORD node ./pipeline/update_pipeline.mjs $file
+            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} node ./pipeline/update_pipeline.mjs $file
           done
