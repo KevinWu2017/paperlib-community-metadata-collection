@@ -1,11 +1,9 @@
-name: Build and Release (electron)
+name: Update Metadata Database
 
 on:
   push:
-    tags: [release-electron*]
-
-permissions:
-  contents: write
+    branches:
+      - main
 
 jobs:
   update_database:
@@ -13,53 +11,36 @@ jobs:
 
     strategy:
       matrix:
-        node-versions: ["16.17.1"]
+        node-versions: ["18.16.1"]
 
     steps:
       - name: "Checkout Project"
         uses: actions/checkout@v2
-
-      - name: Set env
-        run: |
-          release_version=${GITHUB_REF#refs/*/}
-          export VERSION=${release_version:17}
-          export VERSION_SHORT=$(echo $VERSION | sed 's/\.//g')
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-          echo "VERSION_SHORT=$VERSION_SHORT" >> $GITHUB_ENV
-          cp ./build_configs/electron-builder.linux.json5 ./electron-builder.json5
-          rm -rf ./app/utils/crypto
-
-      - name: "Clone Private Repository"
-        uses: actions/checkout@v2
-        with:
-          repository: Future-Scholars/paperlib-crypto
-          token: ${{ secrets.CRYPTO_REPO_KEY }}
-          path: ./app/utils/crypto
 
       - name: Setup NodeJS Environment ${{ matrix.node-versions }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: "Setup PNPM"
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: "Install Node Module"
-        run: npm install --force
+        run: pnpm install
 
-      - name: "Build and Package"
-        run: npm run build
+      - name: Get All Changed Metadata JSON Files
+        id: changed-files
+        uses: tj-actions/changed-files@v42
+        with:
+          files: metadata/**/*.json
 
-      - name: Install Oracle Cloud CLI
+      - name: Inert Metadata into Database from JSON Files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          curl -L -O https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh
-          bash ./install.sh --accept-all-defaults
-          mkdir ~/.oci
-          echo -n ${{ secrets.OCI_CFG_DATA }} | base64 --decode > config
-          mv config ~/.oci
-          echo -n ${{ secrets.OCI_KEY_DATA }} | base64 --decode > oraclekey.cer
-          mv oraclekey.cer ~/.oci
-
-      - name: Upload to Oracle Storage
-        run: |
-          cp ./release/${{ env.VERSION }}/Paperlib_${{ env.VERSION }}.AppImage ./release/${{ env.VERSION }}/Paperlib_latest.AppImage
-          ~/bin/oci os object put --bucket-name ${{ secrets.OCI_OS_BUCKET }} --file ./release/${{ env.VERSION }}/Paperlib_${{ env.VERSION }}.AppImage --namespace ${{ secrets.OCI_OS_NAMESPACE }} --force --name distribution/electron-linux/Paperlib_${{ env.VERSION }}.AppImage
-          ~/bin/oci os object put --bucket-name ${{ secrets.OCI_OS_BUCKET }} --file ./release/${{ env.VERSION }}/Paperlib_latest.AppImage --namespace ${{ secrets.OCI_OS_NAMESPACE }} --force --name distribution/electron-linux/Paperlib_latest.AppImage
-          ~/bin/oci os object put --bucket-name ${{ secrets.OCI_OS_BUCKET }} --file ./release/${{ env.VERSION }}/latest-linux.yml --namespace ${{ secrets.OCI_OS_NAMESPACE }} --force --name distribution/electron-linux/latest-linux.yml
+          for file in "$ALL_CHANGED_FILES"; do
+            DATABASE_URL=$DATABASE_URL DATABASE_USERNAME=$DATABASE_USERNAME DATABASE_PASSWORD=$DATABASE_PASSWORD node ./pipeline/update_pipeline.mjs $file
+          done
