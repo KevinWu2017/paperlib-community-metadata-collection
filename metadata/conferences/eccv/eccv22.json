@@ -6,6 +6,4766 @@
   },
   "collection": [
     {
+      "title": "Contrastive Deep Supervision",
+      "authors": [
+        {
+          "first_name": "Linfeng",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Xin",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Junbo",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Runpei",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Kaisheng",
+          "last_name": "Ma"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Towards Grand Unification of Object Tracking",
+      "authors": [
+        {
+          "first_name": "Bin",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Yi",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Peize",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Dong",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Zehuan",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Ping",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Huchuan",
+          "last_name": "Lu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "SeqFormer: Sequential Transformer for Video Instance Segmentation",
+      "authors": [
+        {
+          "first_name": "Junfeng",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Yi",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Song",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "Wenqing",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Xiang",
+          "last_name": "Bai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Estimating Spatially-Varying Lighting in Urban Scenes with Disentangled Representation",
+      "authors": [
+        {
+          "first_name": "Jiajun",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "Yongjie",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Haoyu",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Jun Hoong",
+          "last_name": "Chan"
+        },
+        {
+          "first_name": "Si",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Boxin",
+          "last_name": "Shi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "In Defense of Online Models for Video Instance Segmentation",
+      "authors": [
+        {
+          "first_name": "Junfeng",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Qihao",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yi",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Song",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "Alan",
+          "last_name": "Yuille"
+        },
+        {
+          "first_name": "Xiang",
+          "last_name": "Bai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "HuMMan: Multi-Modal 4D Human Dataset for Versatile Sensing and Modeling",
+      "authors": [
+        {
+          "first_name": "Zhongang",
+          "last_name": "Cai"
+        },
+        {
+          "first_name": "Daxuan",
+          "last_name": "Ren"
+        },
+        {
+          "first_name": "Ailing",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "Zhengyu",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Tao",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Wenjia",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Xiangyu",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "Yang",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "Yifan",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Liang",
+          "last_name": "Pan"
+        },
+        {
+          "first_name": "Fangzhou",
+          "last_name": "Hong"
+        },
+        {
+          "first_name": "Mingyuan",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Chen Change",
+          "last_name": "Loy"
+        },
+        {
+          "first_name": "Lei",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Ziwei",
+          "last_name": "Liu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Graph R-CNN: Towards Accurate 3D Object Detection with Semantic-Decorated Local Graph",
+      "authors": [
+        {
+          "first_name": "Honghui",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Zili",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Xiaopei",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Wenxiao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "CG, Zhejiang",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Wei",
+          "last_name": "Qian"
+        },
+        {
+          "first_name": "Xiaofei",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Deng",
+          "last_name": "Cai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PointScatter: Point Set Representation for Tubular Structure Extraction",
+      "authors": [
+        {
+          "first_name": "Dong",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Zhao",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Ziwei",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Yuhang",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yihong",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Liwei",
+          "last_name": "Wang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "D&amp;D: Learning Human Dynamics from Dynamic Camera",
+      "authors": [
+        {
+          "first_name": "Jiefeng",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Siyuan",
+          "last_name": "Bian"
+        },
+        {
+          "first_name": "Chao",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Gang",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Gang",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Cewu",
+          "last_name": "Lu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "On Mitigating Hard Clusters for Face Clustering",
+      "authors": [
+        {
+          "first_name": "Yingjie",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Huasong",
+          "last_name": "Zhong"
+        },
+        {
+          "first_name": "Chong",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Chen",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "Jianqiang",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Tao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Yun",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "Qianru",
+          "last_name": "Sun"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Recurrent Bilinear Optimization for Binary Neural Networks",
+      "authors": [
+        {
+          "first_name": "Sheng",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Yanjing",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Tiancheng",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Teli",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "Baochang",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Peng",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "Yu",
+          "last_name": "Qiao"
+        },
+        {
+          "first_name": "Jinhu",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Guodong",
+          "last_name": "Guo"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories",
+      "authors": [
+        {
+          "first_name": "Adam",
+          "last_name": "Harley"
+        },
+        {
+          "first_name": "Zhaoyuan",
+          "last_name": "Fang"
+        },
+        {
+          "first_name": "Katerina",
+          "last_name": "Fragkiadaki"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Open-Set Semi-Supervised Object Detection",
+      "authors": [
+        {
+          "first_name": "Yen-Cheng",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Chih-Yao",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "Xiaoliang",
+          "last_name": "Dai"
+        },
+        {
+          "first_name": "Junjiao",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "Peter",
+          "last_name": "Vajda"
+        },
+        {
+          "first_name": "Zijian",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Zsolt",
+          "last_name": "Kira"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Semantic-Aware Implicit Neural Audio-Driven Video Portrait Generation",
+      "authors": [
+        {
+          "first_name": "Xian",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yinghao",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Qianyi",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Hang",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Wayne",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Bolei",
+          "last_name": "Zhou"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Long-tail Detection with Effective Class-Margins",
+      "authors": [
+        {
+          "first_name": "Jang Hyun",
+          "last_name": "Cho"
+        },
+        {
+          "first_name": "Philipp",
+          "last_name": "Kraehenbuehl"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "SeqTR: A Simple yet Universal Network for Visual Grounding",
+      "authors": [
+        {
+          "first_name": "Chaoyang",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Yiyi",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Yunhang",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "Gen",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Xingjia",
+          "last_name": "Pan"
+        },
+        {
+          "first_name": "Mingbao",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Chao",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Liujuan",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "Xiaoshuai",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Rongrong",
+          "last_name": "Ji"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound",
+      "authors": [
+        {
+          "first_name": "Yan-Bo",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Jie",
+          "last_name": "Lei"
+        },
+        {
+          "first_name": "Mohit",
+          "last_name": "Bansal"
+        },
+        {
+          "first_name": "Gedas",
+          "last_name": "Bertasius"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "KING: Generating Safety-Critical Driving Scenarios for Robust Imitation via Kinematics Gradients",
+      "authors": [
+        {
+          "first_name": "Niklas",
+          "last_name": "Hanselmann"
+        },
+        {
+          "first_name": "Katrin",
+          "last_name": "Renz"
+        },
+        {
+          "first_name": "Kashyap",
+          "last_name": "Chitta"
+        },
+        {
+          "first_name": "Apratim",
+          "last_name": "Bhattacharyya"
+        },
+        {
+          "first_name": "Andreas",
+          "last_name": "Geiger"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Extract Free Dense Labels from CLIP",
+      "authors": [
+        {
+          "first_name": "Chong",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Chen Change",
+          "last_name": "Loy"
+        },
+        {
+          "first_name": "Bo",
+          "last_name": "Dai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Frequency Domain Model Augmentation for Adversarial Attack",
+      "authors": [
+        {
+          "first_name": "Yuyang",
+          "last_name": "Long"
+        },
+        {
+          "first_name": "Qilong",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Boheng",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "Lianli",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "Xianglong",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Jian",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Jingkuan",
+          "last_name": "Song"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors",
+      "authors": [
+        {
+          "first_name": "Oran",
+          "last_name": "Gafni"
+        },
+        {
+          "first_name": "Adam",
+          "last_name": "Polyak"
+        },
+        {
+          "first_name": "Oron",
+          "last_name": "Ashual"
+        },
+        {
+          "first_name": "Shelly",
+          "last_name": "Sheynin"
+        },
+        {
+          "first_name": "Devi",
+          "last_name": "Parikh"
+        },
+        {
+          "first_name": "Facebook AI",
+          "last_name": "Research)"
+        },
+        {
+          "first_name": "Yaniv",
+          "last_name": "Taigman"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Weakly Supervised Grounding for VQA in Vision-Language Transformers",
+      "authors": [
+        {
+          "first_name": "Aisha",
+          "last_name": "Urooj"
+        },
+        {
+          "first_name": "Hilde",
+          "last_name": "Kuehne"
+        },
+        {
+          "first_name": "Chuang",
+          "last_name": "Gan"
+        },
+        {
+          "first_name": "Niels da Vitoria",
+          "last_name": "Lobo"
+        },
+        {
+          "first_name": "Mubarak",
+          "last_name": "Shah"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Practical and Scalable Desktop-based High-Quality Facial Capture",
+      "authors": [
+        {
+          "first_name": "Alexandros",
+          "last_name": "Lattas"
+        },
+        {
+          "first_name": "Yiming",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Jayanth",
+          "last_name": "Kannan"
+        },
+        {
+          "first_name": "Ekin",
+          "last_name": "Ozturk"
+        },
+        {
+          "first_name": "Luca",
+          "last_name": "Filipi"
+        },
+        {
+          "first_name": "Giuseppe Claudio",
+          "last_name": "Guarnera"
+        },
+        {
+          "first_name": "Gaurav",
+          "last_name": "Chawla"
+        },
+        {
+          "first_name": "Abhijeet",
+          "last_name": "Ghosh"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Tracking Objects as Pixel-wise Distributions",
+      "authors": [
+        {
+          "first_name": "Zelin",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Ze",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Yueqing",
+          "last_name": "Zhuang"
+        },
+        {
+          "first_name": "Boxun",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Jiaya",
+          "last_name": "Jia"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "CMD: Self-supervised 3D Action Representation Learning with Cross-modal Mutual Distillation",
+      "authors": [
+        {
+          "first_name": "Yunyao",
+          "last_name": "Mao"
+        },
+        {
+          "first_name": "Wengang",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Zhenbo",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Jiajun",
+          "last_name": "Deng"
+        },
+        {
+          "first_name": "Houqiang",
+          "last_name": "Li"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Open-Vocabulary DETR with Conditional Matching",
+      "authors": [
+        {
+          "first_name": "Yuhang",
+          "last_name": "Zang"
+        },
+        {
+          "first_name": "Wei",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Kaiyang",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Chen",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Chen Change",
+          "last_name": "Loy"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Towards Calibrated Hyper-sphere Representation via Distribution Overlap Coefficient for Long-tailed Learning",
+      "authors": [
+        {
+          "first_name": "Hualiang",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Siming",
+          "last_name": "FU"
+        },
+        {
+          "first_name": "Xiaoxuan",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Hangxiang",
+          "last_name": "Fang"
+        },
+        {
+          "first_name": "Zuozhu",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Haoji",
+          "last_name": "Hu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "FBNet: Feedback Network for Point Cloud Completion",
+      "authors": [
+        {
+          "first_name": "Xuejun",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Hongyu",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Jingjing",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Hang",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "Zhihong",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Di",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Shiliang",
+          "last_name": "Pu"
+        },
+        {
+          "first_name": "Li",
+          "last_name": "Lu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Physically-Based Editing of Indoor Scene Lighting from a Single Image",
+      "authors": [
+        {
+          "first_name": "Zhengqin",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Jia",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "Sai",
+          "last_name": "Bi"
+        },
+        {
+          "first_name": "Rui",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Kalyan",
+          "last_name": "Sunkavalli"
+        },
+        {
+          "first_name": "Milos",
+          "last_name": "Hasan"
+        },
+        {
+          "first_name": "Zexiang",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Ravi",
+          "last_name": "Ramamoorthi"
+        },
+        {
+          "first_name": "Manmohan",
+          "last_name": "Chandraker"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "GLASS: Global to Local Attention for Scene-Text Spotting",
+      "authors": [
+        {
+          "first_name": "Roi",
+          "last_name": "Ronen"
+        },
+        {
+          "first_name": "Shahar",
+          "last_name": "Tsiper"
+        },
+        {
+          "first_name": "Oron",
+          "last_name": "Anschel"
+        },
+        {
+          "first_name": "Inbal",
+          "last_name": "Lavi"
+        },
+        {
+          "first_name": "Amir",
+          "last_name": "Markovitz"
+        },
+        {
+          "first_name": "R.",
+          "last_name": "Manmatha"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Drive&amp;Segment: Unsupervised Semantic Segmentation of Urban Scenes via Cross-modal Distillation",
+      "authors": [
+        {
+          "first_name": "Antonin",
+          "last_name": "Vobecky"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Hurych"
+        },
+        {
+          "first_name": "Oriane",
+          "last_name": "Siméoni"
+        },
+        {
+          "first_name": "Spyros",
+          "last_name": "Gidaris"
+        },
+        {
+          "first_name": "Andrei",
+          "last_name": "Bursuc"
+        },
+        {
+          "first_name": "Patrick",
+          "last_name": "Pérez"
+        },
+        {
+          "first_name": "Josef",
+          "last_name": "Sivic"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Expanding Language-Image Pretrained Models for General Video Recognition",
+      "authors": [
+        {
+          "first_name": "Bolin",
+          "last_name": "Ni"
+        },
+        {
+          "first_name": "Houwen",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Minghao",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Songyang",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Gaofeng",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "Jianlong",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "SHIMING",
+          "last_name": "XIANG"
+        },
+        {
+          "first_name": "Haibin",
+          "last_name": "Ling"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Box2Mask: Weakly Supervised 3D Semantic Instance Segmentation Using Bounding Boxes",
+      "authors": [
+        {
+          "first_name": "Julian",
+          "last_name": "Chibane"
+        },
+        {
+          "first_name": "Francis",
+          "last_name": "Engelmann"
+        },
+        {
+          "first_name": "Anh Tuan",
+          "last_name": "Tran"
+        },
+        {
+          "first_name": "Gerard",
+          "last_name": "Pons-Moll"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Pose-NDF: Modelling Human Pose Manifolds with Neural Distance Fields",
+      "authors": [
+        {
+          "first_name": "Garvita",
+          "last_name": "Tiwari"
+        },
+        {
+          "first_name": "Dimitrije",
+          "last_name": "Antic"
+        },
+        {
+          "first_name": "Jan E.",
+          "last_name": "Lenssen"
+        },
+        {
+          "first_name": "Nikolaos",
+          "last_name": "Sarafianos"
+        },
+        {
+          "first_name": "Tony",
+          "last_name": "Tung"
+        },
+        {
+          "first_name": "Gerard",
+          "last_name": "Pons-Moll"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Multimodal Object Detection via Probabilistic Ensembling",
+      "authors": [
+        {
+          "first_name": "Yi-Ting",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Jinghao",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "Zelin",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "Mertz",
+          "last_name": "Christoph"
+        },
+        {
+          "first_name": "Deva",
+          "last_name": "Ramanan"
+        },
+        {
+          "first_name": "Shu",
+          "last_name": "Kong"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "CenterFormer: Center-based Transformer for 3D Object Detection",
+      "authors": [
+        {
+          "first_name": "Zixiang",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "xiangchen",
+          "last_name": "zhao"
+        },
+        {
+          "first_name": "Yu",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Panqu",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Hassan",
+          "last_name": "Foroosh"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Revisiting a kNN-based Image Classification System with High-capacity Storage",
+      "authors": [
+        {
+          "first_name": "Kengo",
+          "last_name": "Nakata"
+        },
+        {
+          "first_name": "Youyang",
+          "last_name": "Ng"
+        },
+        {
+          "first_name": "Daisuke",
+          "last_name": "Miyashita"
+        },
+        {
+          "first_name": "Asuka",
+          "last_name": "Maki"
+        },
+        {
+          "first_name": "Yu-Chieh",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Jun",
+          "last_name": "Deguchi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "TransFGU: A Top-down Approach to Fine-Grained Unsupervised Semantic Segmentation",
+      "authors": [
+        {
+          "first_name": "Zhaoyuan",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "Pichao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Fan",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Xianzhe",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Hanling",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Hao",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "rong",
+          "last_name": "jin"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "VQFR: Blind Face Restoration with Vector-Quantized Dictionary and Parallel Decoder",
+      "authors": [
+        {
+          "first_name": "Yu-Chao",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "Xintao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Liangbin",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Chao",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "Gen",
+          "last_name": "LI"
+        },
+        {
+          "first_name": "Ying",
+          "last_name": "Shan"
+        },
+        {
+          "first_name": "Ming-Ming",
+          "last_name": "Cheng"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "CLIFF: Carrying Location Information in Full Frames into Human Pose and Shape Estimation",
+      "authors": [
+        {
+          "first_name": "Zhihao",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "s Ark",
+          "last_name": "Lab)*"
+        },
+        {
+          "first_name": "Jianzhuang",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "s Ark",
+          "last_name": "Lab)"
+        },
+        {
+          "first_name": "Zhensong",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "s Ark",
+          "last_name": "Lab)"
+        },
+        {
+          "first_name": "Songcen",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "s Ark",
+          "last_name": "Lab)"
+        },
+        {
+          "first_name": "Youliang",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "s Ark",
+          "last_name": "Lab)"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Pointly-Supervised Panoptic Segmentation",
+      "authors": [
+        {
+          "first_name": "Junsong",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "Zhaoxiang",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Tieniu",
+          "last_name": "Tan"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Registration based Few-Shot Anomaly Detection",
+      "authors": [
+        {
+          "first_name": "Chaoqin",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Haoyan",
+          "last_name": "Guan"
+        },
+        {
+          "first_name": "s College",
+          "last_name": "London)"
+        },
+        {
+          "first_name": "Aofan",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Ya",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Michael W",
+          "last_name": "Spratling"
+        },
+        {
+          "first_name": "s College",
+          "last_name": "London)"
+        },
+        {
+          "first_name": "Yan-Feng",
+          "last_name": "Wang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "A Level Set Theory for Neural Implicit Evolution under Explicit Flows",
+      "authors": [
+        {
+          "first_name": "Ishit",
+          "last_name": "Mehta"
+        },
+        {
+          "first_name": "Manmohan",
+          "last_name": "Chandraker"
+        },
+        {
+          "first_name": "Ravi",
+          "last_name": "Ramamoorthi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Improving Robustness by Enhancing Weak Subnets",
+      "authors": [
+        {
+          "first_name": "Yong",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Stutz"
+        },
+        {
+          "first_name": "Bernt",
+          "last_name": "Schiele"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes",
+      "authors": [
+        {
+          "first_name": "Mutian",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Pei",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Haolin",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Xiaoguang",
+          "last_name": "Han"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark",
+      "authors": [
+        {
+          "first_name": "Li",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Chonghao",
+          "last_name": "Sima"
+        },
+        {
+          "first_name": "Yang",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Zehan",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "Jiajie",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Xiangwei",
+          "last_name": "Geng"
+        },
+        {
+          "first_name": "Hongyang",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Conghui",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Jianping",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "Yu",
+          "last_name": "Qiao"
+        },
+        {
+          "first_name": "Junchi",
+          "last_name": "Yan"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Language Matters: A Weakly Supervised Vision-Language Pre-training Approach for Scene Text Detection and Spotting",
+      "authors": [
+        {
+          "first_name": "Chuhui",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "Wenqing",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Yu",
+          "last_name": "Hao"
+        },
+        {
+          "first_name": "Shijian",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Philip",
+          "last_name": "Torr"
+        },
+        {
+          "first_name": "Song",
+          "last_name": "Bai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Adaptive Patch Exiting for Scalable Single Image Super-Resolution",
+      "authors": [
+        {
+          "first_name": "Shizun",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Jiaming",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Kaixin",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Xiaoqi",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Ming",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Yandong",
+          "last_name": "Guo"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Perceptual Artifacts Localization for Inpainting",
+      "authors": [
+        {
+          "first_name": "Lingzhi",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Yuqian",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Connelly",
+          "last_name": "Barnes"
+        },
+        {
+          "first_name": "Zhe",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Eli",
+          "last_name": "Shechtman"
+        },
+        {
+          "first_name": "Sohrab",
+          "last_name": "Amirghodsi"
+        },
+        {
+          "first_name": "Jianbo",
+          "last_name": "Shi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Adversarially-Aware Robust Object Detector",
+      "authors": [
+        {
+          "first_name": "ZiYi",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "Pengxu",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "Liang",
+          "last_name": "Lin"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "RFNet-4D: Joint Object Reconstruction and Flow Estimation from 4D Point Clouds",
+      "authors": [
+        {
+          "first_name": "Tuan-Anh",
+          "last_name": "Vu"
+        },
+        {
+          "first_name": "Thanh",
+          "last_name": "Nguyen"
+        },
+        {
+          "first_name": "Binh-Son",
+          "last_name": "Hua"
+        },
+        {
+          "first_name": "Quang Hieu",
+          "last_name": "Pham"
+        },
+        {
+          "first_name": "Sai-Kit",
+          "last_name": "Yeung"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Generalizable Patch-Based Neural Rendering",
+      "authors": [
+        {
+          "first_name": "Mohammed",
+          "last_name": "Suhail"
+        },
+        {
+          "first_name": "Carlos",
+          "last_name": "Esteves"
+        },
+        {
+          "first_name": "Leonid",
+          "last_name": "Sigal"
+        },
+        {
+          "first_name": "Ameesh",
+          "last_name": "Makadia"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "A Perturbation-Constrained Adversarial Attack for Evaluating the Robustness of Optical Flow",
+      "authors": [
+        {
+          "first_name": "Jenny",
+          "last_name": "Schmalfuss"
+        },
+        {
+          "first_name": "Philipp",
+          "last_name": "Scholze"
+        },
+        {
+          "first_name": "Andrés",
+          "last_name": "Bruhn"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Contrastive Monotonic Pixel-Level Modulation",
+      "authors": [
+        {
+          "first_name": "Kun",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Rongpeng",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Honggang",
+          "last_name": "Zhang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Social-SSL: Self-Supervised Cross-Sequence Representation Learning Based on Transformers for Multi-Agent Trajectory Prediction",
+      "authors": [
+        {
+          "first_name": "Li-Wu",
+          "last_name": "Tsao"
+        },
+        {
+          "first_name": "Yan-Kai",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Hao-Siang",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Hong-Han",
+          "last_name": "Shuai"
+        },
+        {
+          "first_name": "Lai-Kuan",
+          "last_name": "Wong"
+        },
+        {
+          "first_name": "Wen-Huang",
+          "last_name": "Cheng"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "SpOT: Spatiotemporal Modeling for 3D Object Tracking",
+      "authors": [
+        {
+          "first_name": "Colton",
+          "last_name": "Stearns"
+        },
+        {
+          "first_name": "Davis",
+          "last_name": "Rempe"
+        },
+        {
+          "first_name": "Jie",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Rareș A",
+          "last_name": "Ambruș"
+        },
+        {
+          "first_name": "Sergey",
+          "last_name": "Zakharov"
+        },
+        {
+          "first_name": "Vitor",
+          "last_name": "Guizilini"
+        },
+        {
+          "first_name": "Yanchao",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Leonidas",
+          "last_name": "Guibas"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Toward Understanding WordArt: Corner-Guided Transformer for Scene Text Recognition",
+      "authors": [
+        {
+          "first_name": "Xudong",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "LING",
+          "last_name": "FU"
+        },
+        {
+          "first_name": "Zhifei",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Zhaowen",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Xiang",
+          "last_name": "Bai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Monocular 3D Object Detection with Depth from Motion",
+      "authors": [
+        {
+          "first_name": "Tai",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Jiangmiao",
+          "last_name": "Pang"
+        },
+        {
+          "first_name": "Dahua",
+          "last_name": "Lin"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Fine-Grained Scene Graph Generation with Data Transfer",
+      "authors": [
+        {
+          "first_name": "Ao",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Yuan",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "qianyu",
+          "last_name": "chen"
+        },
+        {
+          "first_name": "Wei",
+          "last_name": "Ji"
+        },
+        {
+          "first_name": "Zhiyuan",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Maosong",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Tat-Seng",
+          "last_name": "Chua"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Balancing Stability and Plasticity through Advanced Null Space in Continual Learning",
+      "authors": [
+        {
+          "first_name": "Yajing",
+          "last_name": "Kong"
+        },
+        {
+          "first_name": "Liu",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Zhen",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Dacheng",
+          "last_name": "Tao"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "OccamNets: Mitigating Dataset Bias by Favoring Simpler Hypotheses",
+      "authors": [
+        {
+          "first_name": "Robik S",
+          "last_name": "Shrestha"
+        },
+        {
+          "first_name": "Kushal",
+          "last_name": "Kafle"
+        },
+        {
+          "first_name": "Christopher",
+          "last_name": "Kanan"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "DisCo: Remedying Self-supervised Learning on Lightweight Models with Distilled Contrastive Learning",
+      "authors": [
+        {
+          "first_name": "Yuting",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "Jia-Xin",
+          "last_name": "Zhuang"
+        },
+        {
+          "first_name": "Shaohui",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Hao",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "Xing",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Ke",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Chunhua",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "University of Adelaide,",
+          "last_name": "Australia&#8221"
+        },
+        {
+          "first_name": "",
+          "last_name": ")"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Diverse Human Motion Prediction Guided by Multi-Level Spatial-Temporal Anchors",
+      "authors": [
+        {
+          "first_name": "Sirui",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Yu-Xiong",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Liangyan",
+          "last_name": "Gui"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "InfiniteNature-Zero: Learning Perpetual View Generation of Natural Scenes from Single Images",
+      "authors": [
+        {
+          "first_name": "Zhengqi",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Qianqian",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Noah",
+          "last_name": "Snavely"
+        },
+        {
+          "first_name": "Angjoo",
+          "last_name": "Kanazawa"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "CT^2: Colorization Transformer via Color Tokens",
+      "authors": [
+        {
+          "first_name": "Shuchen",
+          "last_name": "Weng"
+        },
+        {
+          "first_name": "Jimeng",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Yu",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Si",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Boxin",
+          "last_name": "Shi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PCW-Net: Pyramid Combination and Warping Cost Volume for Stereo Matching",
+      "authors": [
+        {
+          "first_name": "Zhelun",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "Yuchao",
+          "last_name": "Dai"
+        },
+        {
+          "first_name": "Xibin",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "ZhiBo",
+          "last_name": "Rao"
+        },
+        {
+          "first_name": "Dingfu",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Liangjun",
+          "last_name": "Zhang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Discovering Transferable Forensic Features for CNN-generated Images Detection",
+      "authors": [
+        {
+          "first_name": "Keshigeyan",
+          "last_name": "Chandrasegaran"
+        },
+        {
+          "first_name": "Ngoc-Trung",
+          "last_name": "Tran"
+        },
+        {
+          "first_name": "Alexander",
+          "last_name": "Binder"
+        },
+        {
+          "first_name": "Ngai-Man",
+          "last_name": "Cheung"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Domain Adaptive Person Search",
+      "authors": [
+        {
+          "first_name": "Junjie",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Yichao",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Guanshuo",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Fufu",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Qiong",
+          "last_name": "Jia"
+        },
+        {
+          "first_name": "Shouhong",
+          "last_name": "Ding"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Text2LIVE: Text-Driven Layered Image and Video Editing",
+      "authors": [
+        {
+          "first_name": "Omer Bar",
+          "last_name": "Tal"
+        },
+        {
+          "first_name": "Dolev",
+          "last_name": "Ofri-Amar"
+        },
+        {
+          "first_name": "Rafail",
+          "last_name": "Fridman"
+        },
+        {
+          "first_name": "Yoni",
+          "last_name": "Kasten"
+        },
+        {
+          "first_name": "Tali",
+          "last_name": "Dekel"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Event-Based Fusion for Motion Deblurring with Cross-modal Attention",
+      "authors": [
+        {
+          "first_name": "Lei",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Christos",
+          "last_name": "Sakaridis"
+        },
+        {
+          "first_name": "Jingyun",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "Qi",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Kailun",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Peng",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Yaozu",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "Kaiwei",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Luc Van",
+          "last_name": "Gool"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "AutoMix: Unveiling the Power of Mixup",
+      "authors": [
+        {
+          "first_name": "Zicheng",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Siyuan",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "di",
+          "last_name": "wu"
+        },
+        {
+          "first_name": "Zihan",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Zhiyuan",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Lirong",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Stan Z.",
+          "last_name": "Li"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Synergistic Self-Supervised and Quantization Learning",
+      "authors": [
+        {
+          "first_name": "Yunhao",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "Peiqin",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Yechang",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Jianxin",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Shuchang",
+          "last_name": "Zhou"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Auto-regressive Image Synthesis with Integrated Quantization",
+      "authors": [
+        {
+          "first_name": "Fangneng",
+          "last_name": "Zhan"
+        },
+        {
+          "first_name": "Yingchen",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Rongliang",
+          "last_name": "WU"
+        },
+        {
+          "first_name": "Jiahui",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Kaiwen",
+          "last_name": "Cui"
+        },
+        {
+          "first_name": "Changgong",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Shijian",
+          "last_name": "Lu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Event-guided Deblurring of Unknown Exposure Time Videos",
+      "authors": [
+        {
+          "first_name": "Taewoo",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "Jeongmin",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "Lin",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Kuk-Jin",
+          "last_name": "Yoon"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Learning Disentanglement with Decoupled Labels for Vision-Language Navigation",
+      "authors": [
+        {
+          "first_name": "Wenhao",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "Xingping",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "Salman",
+          "last_name": "Khan"
+        },
+        {
+          "first_name": "Jianbing",
+          "last_name": "Shen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "3D CoMPaT: Composition of Materials on Parts of 3D Things",
+      "authors": [
+        {
+          "first_name": "Yuchen",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Ujjwal",
+          "last_name": "Upadhyay"
+        },
+        {
+          "first_name": "Habib",
+          "last_name": "Slim"
+        },
+        {
+          "first_name": "Tezuesh",
+          "last_name": "Varshney"
+        },
+        {
+          "first_name": "Ahmed",
+          "last_name": "Abdelreheem"
+        },
+        {
+          "first_name": "Arpit",
+          "last_name": "Prajapati"
+        },
+        {
+          "first_name": "Suhail S",
+          "last_name": "Pothigara"
+        },
+        {
+          "first_name": "Peter",
+          "last_name": "Wonka"
+        },
+        {
+          "first_name": "Mohamed",
+          "last_name": "Elhoseiny"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Exploring Gradient-based Multi-directional Controls in GANs",
+      "authors": [
+        {
+          "first_name": "Zikun",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Ruowei",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Brendan",
+          "last_name": "Duke"
+        },
+        {
+          "first_name": "Han",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Parham",
+          "last_name": "Aarabi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "OPD: Single-view 3D Openable Part Detection",
+      "authors": [
+        {
+          "first_name": "Hanxiao",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Yongsen",
+          "last_name": "Mao"
+        },
+        {
+          "first_name": "Manolis",
+          "last_name": "Savva"
+        },
+        {
+          "first_name": "Angel X",
+          "last_name": "Chang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Unpaired Image Translation via Vector Symbolic Architectures",
+      "authors": [
+        {
+          "first_name": "Justin",
+          "last_name": "Theiss"
+        },
+        {
+          "first_name": "Jay",
+          "last_name": "Leverett"
+        },
+        {
+          "first_name": "Daeil",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "Aayush",
+          "last_name": "Prakash"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "CCPL: Contrastive Coherence Preserving Loss for Versatile Style Transfer",
+      "authors": [
+        {
+          "first_name": "Zijie",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Zhen",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Junping",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "Xiang",
+          "last_name": "Bai"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Decoupled Adversarial Contrastive Learning for Self-supervised Adversarial Robustness",
+      "authors": [
+        {
+          "first_name": "Chaoning",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Kang",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Chenshuang",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Axi",
+          "last_name": "Niu"
+        },
+        {
+          "first_name": "Jiu",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "Chang D.",
+          "last_name": "Yoo"
+        },
+        {
+          "first_name": "In So",
+          "last_name": "Kweon"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Secrets of Event-Based Optical Flow",
+      "authors": [
+        {
+          "first_name": "Shintaro",
+          "last_name": "Shiba"
+        },
+        {
+          "first_name": "Yoshimitsu",
+          "last_name": "Aoki"
+        },
+        {
+          "first_name": "Guillermo",
+          "last_name": "Gallego"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Synthesizing Light Field Video from Monocular Video",
+      "authors": [
+        {
+          "first_name": "Shrisudhan",
+          "last_name": "Govindarajan"
+        },
+        {
+          "first_name": "Prasan A",
+          "last_name": "Shedligeri"
+        },
+        {
+          "first_name": "Sarah",
+          "last_name": "Sarah"
+        },
+        {
+          "first_name": "Kaushik",
+          "last_name": "Mitra"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds",
+      "authors": [
+        {
+          "first_name": "Minghua",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yin",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Charles R.",
+          "last_name": "Qi"
+        },
+        {
+          "first_name": "Boqing",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "Hao",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "Dragomir",
+          "last_name": "Anguelov"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "3D-Aware Indoor Scene Synthesis with Depth Priors",
+      "authors": [
+        {
+          "first_name": "Zifan",
+          "last_name": "SHI"
+        },
+        {
+          "first_name": "Yujun",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "Jiapeng",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Dit-Yan",
+          "last_name": "Yeung"
+        },
+        {
+          "first_name": "Qifeng",
+          "last_name": "Chen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Restore Globally, Refine Locally: A Mask-Guided Scheme to Accelerate Super-Resolution Networks",
+      "authors": [
+        {
+          "first_name": "xiaotao",
+          "last_name": "hu"
+        },
+        {
+          "first_name": "Jun",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Shuhang",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "Ming-Ming",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "Li",
+          "last_name": "Liu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Modeling Mask Uncertainty in Hyperspectral Image Reconstruction",
+      "authors": [
+        {
+          "first_name": "jiamian",
+          "last_name": "wang"
+        },
+        {
+          "first_name": "Yulun",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Xin",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Ziyi",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "Zhiqiang",
+          "last_name": "Tao"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Perceiving and Modeling Density for Image Dehazing",
+      "authors": [
+        {
+          "first_name": "Tian",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "Yunchen",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Erkang",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "MingChao",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Yun",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Liang",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Sixiang",
+          "last_name": "Chen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "ROBIN: A Benchmark for Robustness to Individual Nuisances in Real-World Out-of-Distribution Shifts",
+      "authors": [
+        {
+          "first_name": "Bingchen",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Shaozuo",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Wufei",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "Mingxin",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Shenxiao",
+          "last_name": "Mei"
+        },
+        {
+          "first_name": "Angtian",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Ju",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Alan",
+          "last_name": "Yuille"
+        },
+        {
+          "first_name": "Adam",
+          "last_name": "Kortylewski"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Delving into Details: Synopsis-to-Detail Networks for Video Recognition",
+      "authors": [
+        {
+          "first_name": "Shuxian",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "Xu",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "Jianqiang",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Xian-Sheng",
+          "last_name": "Hua"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Bringing Rolling Shutter Images Alive with Dual Reversed Distortion",
+      "authors": [
+        {
+          "first_name": "Zhihang",
+          "last_name": "Zhong"
+        },
+        {
+          "first_name": "Mingdeng",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "Xiao",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Zhirong",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Zhongyi",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Yinqiang",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "Stephen",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Imari",
+          "last_name": "Sato"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "SimCC: a Simple Coordinate Classification Perspective for Human Pose Estimation",
+      "authors": [
+        {
+          "first_name": "Yanjie",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Sen",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Peidong",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "寿奎",
+          "last_name": "张"
+        },
+        {
+          "first_name": "Yunxiao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Zhicheng",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Wankou",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Shu-Tao",
+          "last_name": "Xia"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Generative Multiplane Images: Making a 2D GAN 3D-Aware",
+      "authors": [
+        {
+          "first_name": "Xiaoming",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Fangchang",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Güera"
+        },
+        {
+          "first_name": "Zhile",
+          "last_name": "Ren"
+        },
+        {
+          "first_name": "Alexander",
+          "last_name": "Schwing"
+        },
+        {
+          "first_name": "Alex",
+          "last_name": "Colburn"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Self-supervised Social Relation Representation for Human Group Detection",
+      "authors": [
+        {
+          "first_name": "Jiacheng",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Ruize",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "Haomin",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Zekun",
+          "last_name": "Qian"
+        },
+        {
+          "first_name": "Wei",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "Song",
+          "last_name": "Wang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Stripformer: Strip Transformer for Fast Image Deblurring",
+      "authors": [
+        {
+          "first_name": "Fu-Jen",
+          "last_name": "Tsai"
+        },
+        {
+          "first_name": "Yan-Tsung",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Yen-Yu",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Chung-Chi",
+          "last_name": "Tsai"
+        },
+        {
+          "first_name": "Chia-Wen",
+          "last_name": "Lin"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Deep Fourier-based Exposure Correction Network with Spatial-Frequency Interaction",
+      "authors": [
+        {
+          "first_name": "Jie",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Yajing",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Feng",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Keyu",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "Jinghao",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Yukun",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "man",
+          "last_name": "zhou"
+        },
+        {
+          "first_name": "Zhiwei",
+          "last_name": "Xiong"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Organic Priors in Non-Rigid Structure from Motion",
+      "authors": [
+        {
+          "first_name": "Suryansh",
+          "last_name": "Kumar"
+        },
+        {
+          "first_name": "Luc Van",
+          "last_name": "Gool"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "TEMOS: Generating diverse human motions from textual descriptions",
+      "authors": [
+        {
+          "first_name": "Mathis",
+          "last_name": "Petrovich"
+        },
+        {
+          "first_name": "Michael",
+          "last_name": "Black"
+        },
+        {
+          "first_name": "Gul",
+          "last_name": "Varol"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Semantic-Aware Fine-Grained Correspondence",
+      "authors": [
+        {
+          "first_name": "Yingdong",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "Renhao",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Kaifeng",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Yang",
+          "last_name": "Gao"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Layered Controllable Video Generation",
+      "authors": [
+        {
+          "first_name": "Jiahui",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Yuhe",
+          "last_name": "Jin"
+        },
+        {
+          "first_name": "Kwang Moo",
+          "last_name": "Yi"
+        },
+        {
+          "first_name": "Leonid",
+          "last_name": "Sigal"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "GraphVid: It Only Takes a Few Nodes to Understand a Video",
+      "authors": [
+        {
+          "first_name": "Eitan",
+          "last_name": "Kosman"
+        },
+        {
+          "first_name": "Dotan Di",
+          "last_name": "Castro"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Cross-Modality Knowledge Distillation Network for Monocular 3D Object Detection",
+      "authors": [
+        {
+          "first_name": "Yu",
+          "last_name": "Hong"
+        },
+        {
+          "first_name": "Hang",
+          "last_name": "Dai"
+        },
+        {
+          "first_name": "Yong",
+          "last_name": "Ding"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Adaptive Token Sampling For Efficient Vision Transformers",
+      "authors": [
+        {
+          "first_name": "Mohsen",
+          "last_name": "Fayyaz"
+        },
+        {
+          "first_name": "Soroush Abbasi",
+          "last_name": "Koohpayegani"
+        },
+        {
+          "first_name": "Farnoush Rezaei",
+          "last_name": "Jafari"
+        },
+        {
+          "first_name": "Sunando",
+          "last_name": "Sengupta"
+        },
+        {
+          "first_name": "HAMID VAEZI",
+          "last_name": "JOZE"
+        },
+        {
+          "first_name": "Eric",
+          "last_name": "Sommerlade"
+        },
+        {
+          "first_name": "Hamed",
+          "last_name": "Pirsiavash"
+        },
+        {
+          "first_name": "Jürgen",
+          "last_name": "Gall"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Implicit Field Supervision For Robust Non-Rigid Shape Matching",
+      "authors": [
+        {
+          "first_name": "Ramana S",
+          "last_name": "Sundararaman"
+        },
+        {
+          "first_name": "Gautam",
+          "last_name": "Pai"
+        },
+        {
+          "first_name": "Maks",
+          "last_name": "Ovsjanikov"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "NeuMesh: Learning Disentangled Neural Mesh-based Implicit Field for Geometry and Texture Editing",
+      "authors": [
+        {
+          "first_name": "Bangbang",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Chong",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "Junyi",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "Hujun",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "Yinda",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Zhaopeng",
+          "last_name": "Cui"
+        },
+        {
+          "first_name": "Guofeng",
+          "last_name": "Zhang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "KXNet: A Model-Driven Deep Neural Network for Blind Super-Resolution",
+      "authors": [
+        {
+          "first_name": "Jiahong",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)*"
+        },
+        {
+          "first_name": "Hong",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Qi",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Qian",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Deyu",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Zongben",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "an Jiaotong",
+          "last_name": "University)"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "RealFlow: EM-based Realistic Optical Flow Datasets Generation from Videos",
+      "authors": [
+        {
+          "first_name": "Yunhui",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "",
+          "last_name": "Megvii)"
+        },
+        {
+          "first_name": "Kunming",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Ao",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Jiangyu",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Haoqiang",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "Guiming",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Shuaicheng",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "",
+          "last_name": "Megvii)*"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Semi-supervised Object Detection via Virtual Category Learning",
+      "authors": [
+        {
+          "first_name": "Changrui",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Kurt",
+          "last_name": "Debattista"
+        },
+        {
+          "first_name": "Jungong",
+          "last_name": "Han"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PrivHAR: Recognizing Human Actions From Privacy-preserving Lens",
+      "authors": [
+        {
+          "first_name": "Carlos",
+          "last_name": "Hinojosa"
+        },
+        {
+          "first_name": "Miguel A",
+          "last_name": "Marquez"
+        },
+        {
+          "first_name": "Henry",
+          "last_name": "Arguello"
+        },
+        {
+          "first_name": "Ehsan",
+          "last_name": "Adeli"
+        },
+        {
+          "first_name": "Li",
+          "last_name": "Fei-Fei"
+        },
+        {
+          "first_name": "Juan Carlos",
+          "last_name": "Niebles"
+        },
+        {
+          "first_name": "Stanford",
+          "last_name": "University)"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Solution Space Analysis of Essential Matrix based on Algebraic Error Minimization",
+      "authors": [
+        {
+          "first_name": "Gaku",
+          "last_name": "Nakano"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls",
+      "authors": [
+        {
+          "first_name": "Ziyun",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Kenneth",
+          "last_name": "Chaney"
+        },
+        {
+          "first_name": "Kostas",
+          "last_name": "Daniilidis"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "DCCF: Deep Comprehensible Color Filter Learning Framework for High-Resolution Image Harmonization",
+      "authors": [
+        {
+          "first_name": "Ben",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "Shenghui",
+          "last_name": "Ran"
+        },
+        {
+          "first_name": "Quan",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Rongfei",
+          "last_name": "Jia"
+        },
+        {
+          "first_name": "Binqiang",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Xing",
+          "last_name": "Tang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "UniTAB: Unifying Text and Box Outputs for Grounded Vision-Language Modeling",
+      "authors": [
+        {
+          "first_name": "Zhengyuan",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Zhe",
+          "last_name": "Gan"
+        },
+        {
+          "first_name": "Jianfeng",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Xiaowei",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "Faisal",
+          "last_name": "Ahmed"
+        },
+        {
+          "first_name": "Zicheng",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yumao",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Lijuan",
+          "last_name": "Wang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Grasp&#8217;D: Differentiable Contact-rich Grasp Synthesis for Multi-fingered Hands",
+      "authors": [
+        {
+          "first_name": "Dylan",
+          "last_name": "Turpin"
+        },
+        {
+          "first_name": "Liquan",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Eric",
+          "last_name": "Heiden"
+        },
+        {
+          "first_name": "Yun-Chun",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Miles",
+          "last_name": "Macklin"
+        },
+        {
+          "first_name": "Stavros",
+          "last_name": "Tsogkas"
+        },
+        {
+          "first_name": "Sven",
+          "last_name": "Dickinson"
+        },
+        {
+          "first_name": "Animesh",
+          "last_name": "Garg"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "The Abduction of Sherlock Holmes: A Dataset for Visual Abductive Reasoning",
+      "authors": [
+        {
+          "first_name": "Jack",
+          "last_name": "Hessel"
+        },
+        {
+          "first_name": "Jena D",
+          "last_name": "Hwang"
+        },
+        {
+          "first_name": "Jae Sung",
+          "last_name": "Park"
+        },
+        {
+          "first_name": "Rowan",
+          "last_name": "Zellers"
+        },
+        {
+          "first_name": "Chandra",
+          "last_name": "Bhagavatula"
+        },
+        {
+          "first_name": "Anna",
+          "last_name": "Rohrbach"
+        },
+        {
+          "first_name": "Kate",
+          "last_name": "Saenko"
+        },
+        {
+          "first_name": "Yejin",
+          "last_name": "Choi"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Cross-Modal Knowledge Transfer Without Task-Relevant Source Data",
+      "authors": [
+        {
+          "first_name": "SK MIRAJ",
+          "last_name": "AHMED"
+        },
+        {
+          "first_name": "Suhas",
+          "last_name": "Lohit"
+        },
+        {
+          "first_name": "Kuan-Chuan",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Michael J",
+          "last_name": "Jones"
+        },
+        {
+          "first_name": "Amit K.",
+          "last_name": "Roy-Chowdhury"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Approximate Differentiable Rendering with Algebraic Surfaces",
+      "authors": [
+        {
+          "first_name": "Leonid",
+          "last_name": "Keselman"
+        },
+        {
+          "first_name": "Martial",
+          "last_name": "Hebert"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Sim-2-Sim Transfer for Vision-and-Language Navigation in Continuous Environments",
+      "authors": [
+        {
+          "first_name": "Jacob",
+          "last_name": "Krantz"
+        },
+        {
+          "first_name": "Stefan",
+          "last_name": "Lee"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Uncertainty-DTW for Time Series and Sequences",
+      "authors": [
+        {
+          "first_name": "Lei",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Piotr",
+          "last_name": "Koniusz"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Affine Correspondences between Multi-Camera Systems for 6DOF Relative Pose Estimation",
+      "authors": [
+        {
+          "first_name": "Banglei",
+          "last_name": "Guan"
+        },
+        {
+          "first_name": "Ji",
+          "last_name": "Zhao"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Improving Self-supervised Lightweight Model Learning via Hard-aware Metric Distillation",
+      "authors": [
+        {
+          "first_name": "Hao",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Mang",
+          "last_name": "Ye"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion",
+      "authors": [
+        {
+          "first_name": "Chenfei",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Jian",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "Lei",
+          "last_name": "Ji"
+        },
+        {
+          "first_name": "Fan",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Yuejian",
+          "last_name": "Fang"
+        },
+        {
+          "first_name": "Daxin",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Nan",
+          "last_name": "Duan"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "BATMAN: Bilateral Attention Transformer in Motion-Appearance Neighboring Space for Video Object Segmentation",
+      "authors": [
+        {
+          "first_name": "Ye",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Jialin",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Gaurav",
+          "last_name": "Mittal"
+        },
+        {
+          "first_name": "Li",
+          "last_name": "Fuxin"
+        },
+        {
+          "first_name": "Mei",
+          "last_name": "Chen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "DiffuStereo: High Quality Human Reconstruction via Diffusion-based Stereo Using Sparse Cameras",
+      "authors": [
+        {
+          "first_name": "Ruizhi",
+          "last_name": "Shao"
+        },
+        {
+          "first_name": "Zerong",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "Hongwen",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Jingxiang",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Yebin",
+          "last_name": "Liu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "The Challenges of Continuous Self-Supervised Learning",
+      "authors": [
+        {
+          "first_name": "Senthil",
+          "last_name": "Purushwalkam"
+        },
+        {
+          "first_name": "Pedro",
+          "last_name": "Morgado"
+        },
+        {
+          "first_name": "Abhinav",
+          "last_name": "Gupta"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Deep Radial Embedding for Visual Sequence Learning",
+      "authors": [
+        {
+          "first_name": "Yuecong",
+          "last_name": "Min"
+        },
+        {
+          "first_name": "Peiqi",
+          "last_name": "Jiao"
+        },
+        {
+          "first_name": "Yanan",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Wang",
+          "last_name": "Xiaotao"
+        },
+        {
+          "first_name": "LEI",
+          "last_name": "LEI"
+        },
+        {
+          "first_name": "Xiujuan",
+          "last_name": "Chai"
+        },
+        {
+          "first_name": "Xilin",
+          "last_name": "Chen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Shape-Pose Disentanglement using SE(3)-equivariant Vector Neurons",
+      "authors": [
+        {
+          "first_name": "Oren",
+          "last_name": "Katzir"
+        },
+        {
+          "first_name": "Dani",
+          "last_name": "Lischinski"
+        },
+        {
+          "first_name": "Danny",
+          "last_name": "Cohen-Or"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "3D Object Detection with a Self-supervised Lidar Scene Flow Backbone",
+      "authors": [
+        {
+          "first_name": "Emeç",
+          "last_name": "Erçelik"
+        },
+        {
+          "first_name": "Ekim",
+          "last_name": "Yurtsever"
+        },
+        {
+          "first_name": "Mingyu",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Zhijie",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Hanzhen",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Pınar",
+          "last_name": "Topçam"
+        },
+        {
+          "first_name": "Maximilian",
+          "last_name": "Listl"
+        },
+        {
+          "first_name": "Yılmaz Kaan Kaan",
+          "last_name": "Çaylı"
+        },
+        {
+          "first_name": "Alois C.",
+          "last_name": "Knoll"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "FH-Net: A Fast Hierarchical Network for Scene Flow Estimation on Real-world Point Clouds",
+      "authors": [
+        {
+          "first_name": "lihe",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "Shaocong",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "Tingfa",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "xinli",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Jie",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Jianan",
+          "last_name": "Li"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Vote from the Center: 6 DoF Pose Estimation in RGB-D Images by Radial Keypoint Voting",
+      "authors": [
+        {
+          "first_name": "Yangzheng",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)*"
+        },
+        {
+          "first_name": "Mohsen",
+          "last_name": "Zand"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Ali",
+          "last_name": "Etemad"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Michael Alan",
+          "last_name": "Greenspan"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Flow graph to Video Grounding for Weakly-supervised Multi-Step Localization",
+      "authors": [
+        {
+          "first_name": "NIKITA",
+          "last_name": "DVORNIK"
+        },
+        {
+          "first_name": "Isma",
+          "last_name": "Hadji"
+        },
+        {
+          "first_name": "",
+          "last_name": "Toronto)"
+        },
+        {
+          "first_name": "Hai X",
+          "last_name": "Pham"
+        },
+        {
+          "first_name": "Dhaivat",
+          "last_name": "Bhatt"
+        },
+        {
+          "first_name": "Brais",
+          "last_name": "Martinez"
+        },
+        {
+          "first_name": "Afsaneh",
+          "last_name": "Fazly"
+        },
+        {
+          "first_name": "Allan D",
+          "last_name": "Jepson"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Neural Radiance Transfer Fields for Relightable Novel-view Synthesis with Global Illumination",
+      "authors": [
+        {
+          "first_name": "Linjie",
+          "last_name": "Lyu"
+        },
+        {
+          "first_name": "Ayush",
+          "last_name": "Tewari"
+        },
+        {
+          "first_name": "Thomas",
+          "last_name": "Leimkuehler"
+        },
+        {
+          "first_name": "Marc",
+          "last_name": "Habermann"
+        },
+        {
+          "first_name": "Christian",
+          "last_name": "Theobalt"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Learning Topological Interactions for Multi-Class Medical Image Segmentation",
+      "authors": [
+        {
+          "first_name": "Saumya",
+          "last_name": "Gupta"
+        },
+        {
+          "first_name": "Xiaoling",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "James",
+          "last_name": "Kaan"
+        },
+        {
+          "first_name": "Michael",
+          "last_name": "Jin"
+        },
+        {
+          "first_name": "Mutshipay Christian",
+          "last_name": "Mpoy"
+        },
+        {
+          "first_name": "Katherine",
+          "last_name": "Chung"
+        },
+        {
+          "first_name": "Gagandeep",
+          "last_name": "Singh"
+        },
+        {
+          "first_name": "Mary",
+          "last_name": "Saltz"
+        },
+        {
+          "first_name": "Tahsin",
+          "last_name": "Kurc"
+        },
+        {
+          "first_name": "Joel",
+          "last_name": "Saltz"
+        },
+        {
+          "first_name": "APOSTOLOS K",
+          "last_name": "TASSIOPOULOS"
+        },
+        {
+          "first_name": "Prateek",
+          "last_name": "Prasanna"
+        },
+        {
+          "first_name": "Chao",
+          "last_name": "Chen"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Look Both Ways: Self-Supervising Driver Gaze Estimation and Road Scene Saliency",
+      "authors": [
+        {
+          "first_name": "Isaac H",
+          "last_name": "Kasahara"
+        },
+        {
+          "first_name": "Simon",
+          "last_name": "Stent"
+        },
+        {
+          "first_name": "Hyun Soo",
+          "last_name": "Park"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "ObjectBox: From Centers to Boxes for Anchor-Free Object Detection",
+      "authors": [
+        {
+          "first_name": "Mohsen",
+          "last_name": "Zand"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)*"
+        },
+        {
+          "first_name": "Ali",
+          "last_name": "Etemad"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)"
+        },
+        {
+          "first_name": "Michael Alan",
+          "last_name": "Greenspan"
+        },
+        {
+          "first_name": "s",
+          "last_name": "University)"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Unsupervised Segmentation in Real-World Images via Spelke Object Inference",
+      "authors": [
+        {
+          "first_name": "Honglin",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Rahul M",
+          "last_name": "V"
+        },
+        {
+          "first_name": "Yoni I",
+          "last_name": "Friedman"
+        },
+        {
+          "first_name": "Jiajun",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Joshua",
+          "last_name": "Tenenbaum"
+        },
+        {
+          "first_name": "Daniel",
+          "last_name": "Yamins"
+        },
+        {
+          "first_name": "Daniel",
+          "last_name": "Bear"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "A Dense Material Segmentation Dataset for Indoor and Outdoor Scene Parsing",
+      "authors": [
+        {
+          "first_name": "Paul",
+          "last_name": "Upchurch"
+        },
+        {
+          "first_name": "Ransen",
+          "last_name": "Niu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Pixel-wise Energy-biased Abstention Learning for Anomaly Segmentation on Complex Urban Driving Scenes",
+      "authors": [
+        {
+          "first_name": "Yu",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "Yuyuan",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Guansong",
+          "last_name": "Pang"
+        },
+        {
+          "first_name": "Fengbei",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Yuanhong",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Gustavo",
+          "last_name": "Carneiro"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Identifying Hard Noise in Long-Tailed Sample Distribution",
+      "authors": [
+        {
+          "first_name": "Xuanyu",
+          "last_name": "Yi"
+        },
+        {
+          "first_name": "Kaihua",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "Xian-Sheng",
+          "last_name": "Hua"
+        },
+        {
+          "first_name": "Joo-Hwee",
+          "last_name": "Lim"
+        },
+        {
+          "first_name": "Hanwang",
+          "last_name": "Zhang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PressureVision: Estimating Hand Pressure from a Single RGB Image",
+      "authors": [
+        {
+          "first_name": "Patrick L",
+          "last_name": "Grady"
+        },
+        {
+          "first_name": "Chengcheng",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "Samarth",
+          "last_name": "Brahmbhatt"
+        },
+        {
+          "first_name": "Christopher D",
+          "last_name": "Twigg"
+        },
+        {
+          "first_name": "Chengde",
+          "last_name": "Wan"
+        },
+        {
+          "first_name": "James",
+          "last_name": "Hays"
+        },
+        {
+          "first_name": "Charlie",
+          "last_name": "Kemp"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PACTran: PAC-Bayesian Metrics for Estimating the Transferability of Pretrained Models to Classification Tasks",
+      "authors": [
+        {
+          "first_name": "Nan",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "Xi",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Tomer",
+          "last_name": "Levinboim"
+        },
+        {
+          "first_name": "Soravit",
+          "last_name": "Changpinyo"
+        },
+        {
+          "first_name": "Radu",
+          "last_name": "Soricut"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Beyond Periodicity: Towards a Unifying Framework for Activations in Coordinate-MLPs",
+      "authors": [
+        {
+          "first_name": "Sameera",
+          "last_name": "Ramasinghe"
+        },
+        {
+          "first_name": "Simon",
+          "last_name": "Lucey"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Pose for Everything: Towards Category-Agnostic Pose Estimation",
+      "authors": [
+        {
+          "first_name": "Lumin",
+          "last_name": "XU"
+        },
+        {
+          "first_name": "Sheng",
+          "last_name": "Jin"
+        },
+        {
+          "first_name": "Wang",
+          "last_name": "ZENG"
+        },
+        {
+          "first_name": "Wentao",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Chen",
+          "last_name": "Qian"
+        },
+        {
+          "first_name": "Wanli",
+          "last_name": "Ouyang"
+        },
+        {
+          "first_name": "Ping",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Xiaogang",
+          "last_name": "Wang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "UIA-ViT: Unsupervised Inconsistency-Aware Method based on Vision Transformer for Face Forgery Detection",
+      "authors": [
+        {
+          "first_name": "Wanyi",
+          "last_name": "Zhuang"
+        },
+        {
+          "first_name": "Qi",
+          "last_name": "Chu"
+        },
+        {
+          "first_name": "Zhentao",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "Qiankun",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Haojie",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Changtao",
+          "last_name": "Miao"
+        },
+        {
+          "first_name": "Zixiang",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "Nenghai",
+          "last_name": "Yu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "PREF: Predictability Regularized Neural Motion Fields",
+      "authors": [
+        {
+          "first_name": "Liangchen",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "Xuan",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "Benjamin",
+          "last_name": "Planche"
+        },
+        {
+          "first_name": "Meng",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Doermann"
+        },
+        {
+          "first_name": "Junsong",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "State University of New York at Buffalo,",
+          "last_name": "USA&#8221"
+        },
+        {
+          "first_name": "",
+          "last_name": ")"
+        },
+        {
+          "first_name": "Terrence",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Ziyan",
+          "last_name": "Wu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Bi-PointFlowNet: Bidirectional Learning for Point Cloud Based Scene Flow Estimation",
+      "authors": [
+        {
+          "first_name": "WENCAN",
+          "last_name": "CHENG"
+        },
+        {
+          "first_name": "Jong Hwan",
+          "last_name": "Ko"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Bayesian Tracking of Video Graphs Using Joint Kalman Smoothing and Registration",
+      "authors": [
+        {
+          "first_name": "Aditi Basu",
+          "last_name": "Bal"
+        },
+        {
+          "first_name": "Ramy A",
+          "last_name": "Mounir"
+        },
+        {
+          "first_name": "Sathyanarayanan N",
+          "last_name": "Aakur"
+        },
+        {
+          "first_name": "Sudeep",
+          "last_name": "Sarkar"
+        },
+        {
+          "first_name": "Anuj",
+          "last_name": "Srivastava"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Semidefinite Relaxations of Truncated Least-Squares in Robust Rotation Search: Tight or Not",
+      "authors": [
+        {
+          "first_name": "Liangzu",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Mahyar",
+          "last_name": "Fazlyab"
+        },
+        {
+          "first_name": "Rene",
+          "last_name": "Vidal"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Lottery Ticket Hypothesis for Spiking Neural Networks",
+      "authors": [
+        {
+          "first_name": "Youngeun",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "Yuhang",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Hyoungseob",
+          "last_name": "Park"
+        },
+        {
+          "first_name": "Yeshwanth",
+          "last_name": "Venkatesha"
+        },
+        {
+          "first_name": "Ruokai",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "Priyadarshini",
+          "last_name": "Panda"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Multi-domain Learning for Updating Face Anti-spoofing Models",
+      "authors": [
+        {
+          "first_name": "Xiao",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "Yaojie",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Anil",
+          "last_name": "Jain"
+        },
+        {
+          "first_name": "Xiaoming",
+          "last_name": "Liu"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Towards Realistic Semi-Supervised Learning",
+      "authors": [
+        {
+          "first_name": "Mamshad Nayeem",
+          "last_name": "Rizve"
+        },
+        {
+          "first_name": "Navid",
+          "last_name": "Kardan"
+        },
+        {
+          "first_name": "Mubarak",
+          "last_name": "Shah"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Unsupervised Pose-aware Part Decomposition for Man-made Articulated Objects",
+      "authors": [
+        {
+          "first_name": "Yuki",
+          "last_name": "Kawana"
+        },
+        {
+          "first_name": "Yusuke",
+          "last_name": "Mukuta"
+        },
+        {
+          "first_name": "Tatsuya",
+          "last_name": "Harada"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Cartoon Explanations of Image Classifiers",
+      "authors": [
+        {
+          "first_name": "Stefan",
+          "last_name": "Kolek"
+        },
+        {
+          "first_name": "Duc Anh",
+          "last_name": "Nguyen"
+        },
+        {
+          "first_name": "Ron",
+          "last_name": "Levie"
+        },
+        {
+          "first_name": "Joan",
+          "last_name": "Bruna"
+        },
+        {
+          "first_name": "Gitta",
+          "last_name": "Kutyniok"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "RRSR:Reciprocal Reference-based Image Super-Resolution with Progressive Feature Alignment and Selection",
+      "authors": [
+        {
+          "first_name": "Lin",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Xin",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Dongliang",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Fu",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Yili",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Zhaoxiang",
+          "last_name": "Zhang"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Gaussian Activated Neural Radiance Fields for High Fidelity Reconstruction &amp; Pose Estimation",
+      "authors": [
+        {
+          "first_name": "Shin-Fang",
+          "last_name": "Chng"
+        },
+        {
+          "first_name": "Sameera",
+          "last_name": "Ramasinghe"
+        },
+        {
+          "first_name": "Jamie",
+          "last_name": "Sherrah"
+        },
+        {
+          "first_name": "Simon",
+          "last_name": "Lucey"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "Unbiased Gradient Estimation for Differentiable Surface Splatting via Poisson Sampling",
+      "authors": [
+        {
+          "first_name": "Jan U.",
+          "last_name": "Müller"
+        },
+        {
+          "first_name": "Michael",
+          "last_name": "Weinmann"
+        },
+        {
+          "first_name": "Reinhard",
+          "last_name": "Klein"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
+      "title": "&#8220;This is my unicorn, Fluffy&#8221;: Personalizing frozen vision-language representations",
+      "authors": [
+        {
+          "first_name": "Niv",
+          "last_name": "Cohen"
+        },
+        {
+          "first_name": "Rinon",
+          "last_name": "Gal"
+        },
+        {
+          "first_name": "Eli",
+          "last_name": "Meirom"
+        },
+        {
+          "first_name": "Gal",
+          "last_name": "Chechik"
+        },
+        {
+          "first_name": "Yuval",
+          "last_name": "Atzmon"
+        }
+      ],
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "pubTime": "2022",
+      "pubType": 1
+    },
+    {
       "title": "Learning Uncoupled-Modulation CVAE for 3D Action-Conditioned Human Motion Synthesis",
       "authors": [
         {
