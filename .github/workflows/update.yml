@@ -25,5 +25,5 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in "$ALL_CHANGED_FILES"; do
-            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} MEILISEARCH_URL=${{ secrets.MEILISEARCH_URL }} python ./script/update_db.py $file
+            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} MEILISEARCH_URL=${{ secrets.MEILISEARCH_URL }} python3 ./script/update_db.py $file
           done
