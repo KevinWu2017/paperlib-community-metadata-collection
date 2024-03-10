@@ -7,28 +7,11 @@ on:
 
 jobs:
   update_database:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-versions: ["18.16.1"]
+    runs-on: self-hosted
 
     steps:
       - name: "Checkout Project"
         uses: actions/checkout@v4
-
-      - name: Setup NodeJS Environment ${{ matrix.node-versions }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: "Setup PNPM"
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
-      - name: "Install Node Module"
-        run: pnpm install
 
       - name: Get All Changed Metadata JSON Files
         id: changed-files
@@ -42,5 +25,5 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in "$ALL_CHANGED_FILES"; do
-            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} node ./pipeline/update_pipeline.mjs $file
+            DATABASE_URL=${{ secrets.DATABASE_URL }} DATABASE_USERNAME=${{ secrets.DATABASE_USERNAME }} DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }} MEILISEARCH_URL=${{ secrets.MEILISEARCH_URL }} python ./script/update_db.py $file
           done

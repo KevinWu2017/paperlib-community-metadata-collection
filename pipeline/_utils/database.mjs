@@ -3,9 +3,7 @@ import { distance } from "fastest-levenshtein";
 import * as cliProgress from "cli-progress";
 
 export const MetadataModelSchema = new mongoose.Schema({
-  addTime: Date,
   title: String,
-  minifiedtitle: String,
   authors: String,
   publication: String,
   pubTime: String,
@@ -16,10 +14,7 @@ export const MetadataModelSchema = new mongoose.Schema({
   volume: { type: String, required: false },
   number: { type: String, required: false },
   publisher: { type: String, required: false },
-  codes: { type: Array, required: false },
   source: String,
-  hits: Number,
-  permission: Number,
 });
 
 export async function updateDatabase(
@@ -30,7 +25,7 @@ export async function updateDatabase(
   databasePassword
 ) {
   const db = await mongoose.connect(
-    `mongodb+srv://${databaseUsername}:${databasePassword}@${databaseURL}/APIData?retryWrites=true&w=majority`
+    `mongodb://${databaseUsername}:${databasePassword}@${databaseURL}`
   );
   const metadataModel = db.model("Metadata", MetadataModelSchema, "Metadata");
 
